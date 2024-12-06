@@ -1,0 +1,15 @@
+.list-item{
+  @apply h-fit p-0
+}
+
+.icon{
+  @apply text-blue-500 mr-4 text-6xl h-fit w-fit;
+}
+
+.item{
+  @apply h-fit p-4 mb-2 rounded-lg bg-gray-100 shadow-md hover:shadow-lg hover:bg-gray-200 transition
+}
+
+.UserName{
+  @apply font-semibold text-xl text-gray-800 hover:text-blue-600 m-0
+}

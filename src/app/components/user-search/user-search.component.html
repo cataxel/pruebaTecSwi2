@@ -1,0 +1,13 @@
+<div class="search-bar flex items-center focus:ring-2 focus:ring-blue-500">
+  <mat-form-field appearance="outline" class="w-full">
+    <mat-icon matPrefix class="mr-2 text-gray-500">search</mat-icon>
+    <input
+      matInput
+      type="text"
+      placeholder="Buscar por nombre o correo..."
+      [(ngModel)]="searchTerm"
+      (input)="onSearch(searchTerm)"
+
+    />
+  </mat-form-field>
+</div>
